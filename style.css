@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #f5e6c8;
+    color: #333;
+}
+
+/*navbar*/
+header{
+    background-color: #5c3b1e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*hero section*/
+.hero{
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.contenido-hero{
+    width: 70%;
+}
+
+.contenido-hero h2{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.contenido-hero p{
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.boton-hero{
+    background-color: gold;
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/*section about*/
+.seccion{
+    padding: 80px 10px;
+    text-align: center;
+}
+
+.seccion h2{
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+/*cards*/
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+}
+
+
+/*pasos*/
+.pasos{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-left: 5px solid goldenrod;
+}
+
+/*footer*/
+footer{
+    background-color: #5c3b1e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
