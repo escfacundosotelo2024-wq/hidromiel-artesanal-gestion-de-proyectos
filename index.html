@@ -8,27 +8,24 @@
 </head>
 <body>
     <header>
+        <!-- Metemos el h1 adentro del nav para que el flex layout funcione limpio -->
         <nav>
             <h1>Hidromiel Artesanal</h1>
             <ul>
                 <li><a href="#que-es">Qué es</a></li>
                 <li><a href="#ingredientes">Ingredientes</a></li>
-                <li><a href="#pasos">Pasos de Elaboración</a></li>
-                <li><a href="#tipos">Tipos de Hidromiel</a></li>
+                <li><a href="#pasos">Pasos</a></li>
+                <li><a href="#tipos">Tipos</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-content">
+        <div class="contenido-hero">
             <h2>Descubre el arte de la hidromiel</h2>
-            
-            <p>
-                Una bebida milenaria hecha a base de miel fermentada.
-            </p>
-
-            <a href="#pasos" class="btn">Ver Pasos para Hacer Hidromiel</a>
+            <p>Una bebida milenaria hecha a base de miel fermentada.</p>
+            <a href="#pasos" class="boton-hero">Ver Pasos para Hacer Hidromiel</a>
         </div>
     </section>
 
@@ -36,23 +33,19 @@
     <section id="que-es" class="seccion">
         <h2>¿Qué es la Hidromiel?</h2>
         <p>
-            La hidromiel es una bebida alcohólica obtenida 
-            a partir de la fermentación de miel con agua. 
-            Es una de las bebidas más antiguas conocidas por la humanidad, 
-            con registros que datan de hace miles de años. 
-            La hidromiel puede variar en sabor, aroma y contenido alcohólico
-            dependiendo de los ingredientes utilizados y el proceso de fermentación.
+            La hidromiel es una bebida alcohólica obtenida a partir de la fermentación de miel con agua. 
+            Es una de las bebidas más antiguas conocidas por la humanidad, con registros que datan de hace miles de años. 
+            La hidromiel puede variar en sabor, aroma y contenido alcohólico dependiendo de los ingredientes utilizados y el proceso de fermentación.
         </p>
     </section>
 
-    <!-- ingredientes -->
+    <!-- Ingredientes -->
     <section id="ingredientes" class="seccion">
         <h2>Ingredientes</h2>
-        
         <div class="cards">
             <div class="card">
                 <h3>Miel</h3>
-                <p>La base de la bebida, que aporta dulzura y compuestos aromáticos.</p>
+                <p>Es la base de la bebida, que aporta dulzura y compuestos aromáticos.</p>
             </div>
             <div class="card">
                 <h3>Agua</h3>
@@ -60,80 +53,60 @@
             </div>
             <div class="card">
                 <h3>Levadura</h3>
-                <p>Responsable de convertir los azúcares de la miel en alcohol.</p>
+                <p>Es la responsable de convertir los azúcares de la miel en alcohol.</p>
+                <p>Se puede usar desde levadura de panadería, hasta las específicas para hacer hidromiel.</p>
             </div>
             <div class="card">
                 <h3>Ácido Cítrico</h3>
-                <p>Puede añadirse para ajustar el pH y mejorar el sabor.</p>
+                <p>Se le puede agregar para ajustar el pH y mejorar el sabor.</p>
             </div>
         </div>
     </section>
 
-    <!-- Pasos de Elaboración -->
-    <section id="pasos para hacer hidromiel" class="seccion">
+    <!-- Pasos para elaborarla -->
+    <section id="pasos" class="seccion">
         <h2>Pasos para hacer hidromiel</h2>
-
-        <div class="paso">
-            <h3>Paso 1: Preparar la mezcla</h3>
-            <p>Mezcla la miel con agua en una proporción de 1 parte de miel por 4 partes de agua.</p>
-        </div>
-        <div class="paso">
-            <h3>Paso 2: Añadir levadura</h3>
-            <p>Agrega la levadura a la mezcla y remueve bien para distribuirla uniformemente.</p>
-        </div>
-        <div class="paso">
-            <h3>Paso 3: Fermentación</h3>
-            <p>Coloca la mezcla en un recipiente hermético y déjala fermentar durante varios días.</p>
-        </div>
-        <div class="paso">
-            <h3>Paso 4: Envasado</h3>
-            <p>Una vez que la fermentación esté completa, envasa la hidromiel en botellas limpias y selladas.</p>
-        </div>
-    </section>
-
-    <!--galería-->
-<section id="galeria" class="seccion">
-        <h2>Galería del proceso</h2>
         
-        <div class="galeria">
-            <img src="img/Ingredientes puestos - antes de fermentar.jpg" 
-                 alt="inicio de proceso de Fermentación">  
+        <div class="contenedor-pasos">
+            <p class="nota">
+            <strong>Importante:</strong> Existen diferentes métodos para elaborar hidromiel artesanal.</p> 
+            <p>Los pasos descritos a continuación corresponden a un procedimiento básico y pueden variar según la receta, los ingredientes utilizados y las preferencias del productor.</p>
             
-            <img src="img/Primer trasvasado (primera vez).jpg" 
-                alt="Primer trasvasado de hidromiel">
-            
-            <img src="img/Proceso de trasvasado.jpg" 
-                alt="Proceso de trasvasado de hidromiel">    
-        
-            <img src="img/Degustación de primer trasvasado (en proceso).jpg" 
-               alt="Degustación de primer trasvasado (todavia en proceso de fermantación)">
-
-                <img src="img/Fermentando.jpg"> 
-                   
-                <img src="img/Fermentación HM-Naranja.jpg"
-                    alt="inicio de proceso de Fermentación de hidromiel de naranja">
-
-                    <img src="img/Inicio trasvasado HM naranja.jpg">
-                    <img src="img/Trasvasado final (la mejor).jpg"
-                        alt="Hidromiel de naranja lista para consumir">
-
-                    <img src="img/La que mejor me salió.jpg"
-                        alt="Hidromiel de naranja lista para consumir">
-                        
+            <div class="paso">
+            <h3>Paso 0: Desinfección</h3>
+            <p>Limpia y desinfecta el recipiente de fermentación, las botellas y los utensilios que utilizarás. Una correcta higiene es fundamental para evitar contaminaciones.</p>
             </div>
+        
+            <div class="pasos">  
+                <h3>Paso 1: Preparar la mezcla</h3>
+                <p>Añade el agua, la miel y la levadura al recipiente de fermentación.</p>
+                <p>Durante los primeros días, la actividad de la levadura ayudará a integrar los ingredientes de forma natural.</p>
+            </div>
+            
+            <div class="paso">
+                <h3>Paso 2: Fermentación</h3>
+                <p>Manten el recipiente parcialmente cerrado y dejalo reposar en un lugar fresco y oscuro durante varias semanas.</p>
+                <p>Durante este tiempo, la levadura convertirá los azúcares de la miel en alcohol.</p>
+            </div>
+           
+            <div class="pasos">
+                <h3>Paso 3: Envasado</h3>
+                <p>Una vez que la fermentación esté completa, envasa la hidromiel en botellas limpias y selladas para su conservación y posterior consumo.</p>
+            </div>
+        </div>
     </section>
+
     <!-- Tipos de Hidromiel -->
     <section id="tipos" class="seccion">
         <h2>Tipos de Hidromiel</h2>
-
         <div class="cards">
             <div class="card">
                 <h3>Hidromiel Tradicional</h3>
-                <p>El tipo más común, hecho solo con miel, agua y levadura.</p>
+                <p>Es el tipo más común, hecho solo con miel, agua y levadura.</p>
             </div>
             <div class="card">
                 <h3>Hidromiel de Frutas</h3>
-                <p>Se añaden frutas durante la fermentación para aportar sabores adicionales.</p>
+                <p>Se añaden frutas como manzana, naranja o uva durante la fermentación para aportar sabores adicionales.</p>
             </div>
             <div class="card">
                 <h3>Hidromiel Especiada</h3>
